@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Clean Minimalism Typography & Scrollbar */
+@layer base {
+  body {
+    @apply antialiased bg-[#F4F4F5] text-[#18181B];
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom Sleek Minimal Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4D4D8;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A1A1AA;
+}
+

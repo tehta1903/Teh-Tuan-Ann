@@ -1,0 +1,6 @@
+{
+  "name": "Photo Background Studio",
+  "description": "Upload, composite, and embed photos onto custom backgrounds with drag-and-drop, cutout tools, filters, lighting adjustments, and high-resolution image export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
